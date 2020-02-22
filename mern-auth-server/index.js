@@ -32,5 +32,6 @@ app.get('*', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3000, () => {
+  console.log(`You're listening to ${process.env.PORT}.......`);
   rowdyResults.print()
 })
